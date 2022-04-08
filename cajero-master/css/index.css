@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background: url(ññññ.jpg);
+    background-size:100%;
+    font-size: 18px;
+}
+#imagen{
+    text-align: center;
+}
+main, div{
+    text-align: center;
+
+}
+li .img{
+    height: 400px;
+    margin: 5px 370px;
+    list-style: none;
+}
+
+
+
+.usua {
+    margin: 25%;
+    height: 32px;
+}
+.pass{
+    margin: 25%;
+}
+
+
+#usuario, #contraseña{
+    width: 400px;
+    padding: 7px;
+    height: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ccc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 10px;
+    padding: 0;
+    background-color: #ccc;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+img{
+    height: 600px;
+    width: 40%; ;
+    justify-content: center;
+    display: flexbox;
+    
+}
+#inicio{
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    padding: 70px 70px;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+#inicio:hover{
+    text-decoration: underline;
+    color: rgb(238, 235, 87);
+}
+#salir{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+#salir:hover{
+    text-decoration: underline;
+    color: rgb(247, 231, 4);
+}
+
+#dinero{
+    border-radius: 7px;
+    font-size: 20px;
+}
+#extraer{
+    color: blue;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.usuarios{
+    justify-content: center;
+    width: 330px;
+    margin: auto 0;
+}
+.datos{
+    height: 70%;
+    width: 25%;
+}
+#textUsu{
+    color: rgb(0, 0, 0); 
+    padding: 6px;
+    margin: 0 150px;
+    text-decoration: underline;
+    list-style: none;
+    font-size: 1.8rem;
+    display: flexbox;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#textPass{
+    color: rgb(0, 0, 0); 
+    padding: 6px;
+    margin: 0 130px;
+    text-decoration: underline;
+    list-style: none;
+    font-size: 1.8rem;
+    display: flexbox;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (min-width:768px) and (max-width:1600px) {
+    .usuarios{
+        justify-content: center;
+        width: 330px;
+        margin: auto 0;
+    }
+    .datos{
+        height: 70%;
+        width: 25%;
+    }
+    
+    .img{
+        justify-content: flex-start;
+        margin: -400px;
+    }
+}
+@media screen and (min-width:460px) and (max-width:800px) {
+    .usuarios{
+        justify-content: center;
+        width: 330px;
+        margin: auto 0;
+    }
+    .datos{
+        height: 70%;
+        width: 25%;
+    }
+    
+    .img{
+        justify-content: flex-start;
+        margin: -400px;
+    }
+}
+@media screen and (min-width:412px) {
+    } .usuarios{
+        justify-content: center;
+        width: 330px;
+        margin: auto 0;
+    }
+    .datos{
+        height: 70%;
+        width: 25%;
+    }
+    
+    .img{
+        justify-content: flex-start;
+        margin: -400px;
+    }

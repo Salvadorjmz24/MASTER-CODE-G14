@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    <nav class="nav">
+        <input type="checkbox" class="nav__checkbox" id="nav__checkbox">
+        <label for="nav__checkbox" class="nav__toggle">
+            <span class="open">
+                open
+            </span>
+            <span class="close">
+                &times;
+            </span>
+        </label>
+            <button class="modal hidden">&times;</button>
+        <ul class="nav__menu">
+            <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="" style="height: 60px; width: 60px;">
+            </li>
+            <li><a href="#">item 1</a></li>
+            <li><a href="#">item 2</a></li>
+            <li><a href="#">item 3</a></li>
+            <li><a href="#"><img src="https://cdn2.dineroenimagen.com/media/dinero/images/blogs/javalogo.jpg" alt=""style="height: 60px; width: 60px;"></a></li>
+        </ul>
+    </nav>
+    <div class="overlay hidden"></div>
+    <script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.usuarios{
+    justify-content: center;
+    width: 330px;
+    margin: auto 0;
+}
+.datos{
+    height: 70%;
+    width: 25%;
+}
+
+.img{
+    justify-content: flex-start;
+    margin: -400px;
+}
